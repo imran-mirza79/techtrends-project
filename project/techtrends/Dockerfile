@@ -1,9 +1,9 @@
-FROM python:3.8
+FROM python:2.7
 LABEL maintainer="Imran Mirza"
 
 # Copy local code to the container image.
-COPY  . /app
 WORKDIR /app
+COPY  . /app
 EXPOSE 3111
 # Install production dependencies.
 RUN pip install -r requirements.txt
