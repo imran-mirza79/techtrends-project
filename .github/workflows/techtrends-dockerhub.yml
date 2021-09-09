@@ -28,4 +28,4 @@ jobs:
           file: ./project/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: imranmirza79/techtrends:latest
+          tags: ${{ secrets.DOKCERHUB_REPOSITORY }}
