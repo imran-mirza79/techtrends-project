@@ -13,5 +13,5 @@ spec:
       valueFiles:
         - values-staging.yaml
     path: project/helm
-    repoURL: https://github.com/imran-mirza79/techtrends-project.git
+    repoURL: https://github.com/imran-mirza79/techtrends-project
     targetRevision: HEAD

@@ -1,7 +1,9 @@
 apiVersion: v1
 name: techtrends
 description: Techtrends-Project
-type: application
-keywords: 
-- techtrends
+type: Application
+keywords: techtrends
 version: 1.0.0
+maintainers:
+  name: Mohammed Imran Mirza
+  email: imranmirza070901@gmail.com
