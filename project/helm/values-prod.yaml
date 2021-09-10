@@ -1,10 +1,12 @@
 namespace: prod
 service:
   port: 7111
-image:
   pullPolicy: Always
+image:
+  tag: latest
 replicaCount: 5
-requests:
+resources:
+  requests:
     cpu: 350m
     memory: 128Mi
   limits:

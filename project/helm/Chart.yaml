@@ -1,9 +1,7 @@
 apiVersion: v1
 name: techtrends
-description: First project in the Udacity/Suse Nanodegree
+description: Techtrends-Project
+type: application
 keywords: 
 - techtrends
 version: 1.0.0
-maintainers:
-- name: Nuria Malet Quintar 
-  email: nmalet12@gmail.com
