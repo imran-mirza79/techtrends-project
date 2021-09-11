@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   labels:
     tier: test
-  name: {{ .values.namespace }}
+  name: {{ .Values.namespace }}
